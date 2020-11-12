@@ -28,35 +28,16 @@ p{
     border: 2px solid gray;
     border-radius: 2px;
 }
-.link_wrapper{
-    width: 150px;
-    height: 50px;
-    border: none;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.inputs{
     margin: 0 auto;
-    padding-top: 50px;
-}
-.link{
-    width: 150px;
-    height: 50px;
+    width: 300px;
+    min-height: 150px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    border-radius: 3px;
-    transition: 0.3s;
-    font-weight: 500;
-    background-color: #c9c9c9;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
 }
-.link:hover{
-    transition: 0.3s;
-    width: 144px;
-    height: 44px;
-    border: 3px solid black;
-    border-radius: 3px;
+.inputs input{
+    height: 50px;
+    background: none;
 }

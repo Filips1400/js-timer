@@ -1,8 +1,8 @@
 let start = 1;
 function timerstart() {
     if (start == 1) {
-        let time = prompt('Please, enter seconds');
-        const countDownEl = document.getElementById("countdown");
+        let time = document.getElementById("start").value * 60;
+        const countDownEl = document.getElementById("countdown"); 
 
         setInterval(updateCountdown, 1000);
         
@@ -15,6 +15,6 @@ function timerstart() {
           if (seconds > 0 || minutes > 0) {
             time--;
           }
-        }
     }
+  }
 }
